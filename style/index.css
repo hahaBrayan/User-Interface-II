@@ -1,1 +1,72 @@
-/* Add CSS styling here */
+.img-button {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/31/05/36/buildings-2699520_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    width: 40em;
+    height: 20em;
+    color: #faf7f2;
+}
+.frontpage {
+    display: flex;
+    justify-content: center;
+
+}
+body {
+    background-color:#faf7f2;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf7f2;
+}
+button {
+    background-color: #0e539e;
+    border: 0;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #faf7f2;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding: 6px 16px;
+    text-align: center;
+}
+.button-two {
+    background-color: #0e539e;
+    border-radius: 6px;
+    color: #faf7f2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-decoration: none;
+}
+.button-one {
+    color: #faf7f2;
+    text-decoration: none;   
+}
+.container {
+    display: flex;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2em 3em;
+}
+.row-element{
+    text-align: center;
+}
+.row img {
+    width: 15em;
+    height: auto;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #d6be96;
+    padding: 3em;
+}
